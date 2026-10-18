@@ -23,8 +23,6 @@ The pipeline was executed on a diverse basket of equities to test risk profiling
 * **Ford (Auto):** Flags in the **Distress Zone** (<1.81). Auto manufacturers are highly capital-intensive and carry massive structural debt, which the Z-score correctly identifies as a leverage risk.
 * **Delta Airlines (Aviation):** Scores in the **Distress Zone**, reflecting the high fixed costs and fleet-financing debt inherent to the airline industry, making them highly sensitive to macroeconomic cycles.
 
-![Altman Z-Score Trend](altman_z_score_trend.png)
-
 ## 🚀 How to Run
 1. Install dependencies: `pip install yfinance pandas matplotlib`
 2. Run the script: `python credit_risk_pipeline.py`
